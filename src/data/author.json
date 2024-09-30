@@ -1,0 +1,42 @@
+{
+    "name": "Anna Quincey",
+    "occupation": "Developer with experience as IT consultant",
+    "location": "Bergen, Norway",
+    "avatar": "avatar.jpg",
+    "email": "storoy.steffen@gmail.com",
+    "telephone": "+47 99 61 05 83",
+    "skills": [
+        "HTML",
+        "CSS",
+        "Javascript / ES6",
+        "UI Design",
+        "React",
+        "Git"
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": "native"
+        },
+        {
+            "name": "German",
+            "level": "fluent"
+        },
+        {
+            "name": "French",
+            "level": "basic"
+        }
+    ],
+    "social": [
+        {
+            "name": "Github",
+            "user": "@annaquincey",
+            "url": "https://github.com/annaquincey"
+        },
+        {
+            "name": "LinkedIn",
+            "user": "AnnaQncy",
+            "url": "https://www.linkedin.com/in/annaquincey"
+        }
+    ]
+}
