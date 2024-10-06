@@ -1,0 +1,11 @@
+{   "aria": {
+        "email": {
+            "no": "E-post",
+            "en": "E-mail"
+        },
+        "telephone": {
+            "no": "Telefon",
+            "en": "Telephone"
+        }
+    }
+}

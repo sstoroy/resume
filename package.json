@@ -1,49 +1,45 @@
 {
   "name": "resume",
-  "version": "1.1.0",
-  "description": "An online resume",
+  "version": "1.0.0",
+  "description": "A resume",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "run-s clean eleventy:dev",
-    "build": "run-s clean eleventy:prod",
-    "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
-    "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
-    "clean": "del-cli dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run serve",
+    "watch": "npm run clean && concurrently --kill-others -c auto npm:css:watch npm:11ty:watch",
+    "serve": "npm run clean && concurrently --kill-others -c auto npm:css:watch npm:11ty:serve",
+    "build": "npm run clean css:build && npm run 11ty:build",
+    "debug": "cross-env DEBUG=Eleventy* npm run build",
+    "11ty:watch": "cross-env NODE_ENV=development eleventy --watch --incremental",
+    "11ty:serve": "cross-env NODE_ENV=development eleventy --serve --incremental",
+    "11ty:build": "cross-env NODE_ENV=production eleventy --pathprefix 'resume'",
+    "css:watch": "tailwindcss -i src/assets/css/main.css -o dist/assets/css/main.css -w",
+    "css:build": "tailwindcss -i src/assets/css/main.css -o dist/assets/css/main.css -m",
+    "clean": "del-cli dist"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sstoroy/sstoroy.github.io/"
+    "url": "git+https://github.com/sstoroy/resume.git"
   },
   "author": "Steffen Storøy",
   "license": "MIT",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-cache-assets": "^2.2.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@babel/core": "^7.13.0",
-    "@babel/plugin-transform-runtime": "^7.13.10",
-    "@babel/preset-env": "^7.13.12",
-    "babel-loader": "^8.2.2",
-    "clean-css": "^5.1.2",
-    "critical": "^7.2.1",
-    "cssesc": "^3.0.0",
-    "del-cli": "^3.0.1",
-    "focus-visible": "^5.2.0",
-    "html-minifier": "^4.0.0",
-    "lodash": "^4.17.21",
-    "luxon": "^1.26.0",
-    "markdown-it": "^12.0.4",
-    "memfs": "^3.2.0",
-    "mime": "^2.4.4",
-    "netlify-plugin-cache": "^1.0.3",
-    "npm-run-all": "^4.1.5",
-    "resume": "file:",
-    "sass": "^1.79.4",
-    "svg-sprite": "^2.0.4",
-    "webpack": "^5.28.0"
+  "bugs": {
+    "url": "https://github.com/sstoroy/resume/issues"
   },
+  "homepage": "https://github.com/sstoroy/resumen#readme",
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "@11ty/eleventy": "^3.0.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "concurrently": "^9.0.1",
+    "critical": "^7.2.1",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.13",
+    "del-cli": "^3.0.1",
+    "html-minifier": "^4.0.0",
+    "svg-sprite": "^2.0.4",
+    "tailwindcss": "^3.4.13",
+    "terser": "^5.34.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "github:11ty/eleventy-img",
+    "resume": "file:"
   }
 }

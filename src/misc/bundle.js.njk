@@ -1,0 +1,21 @@
+---
+permalink: "/assets/js/bundle.js"
+---
+{% set js %}
+{% include "../assets/js/main.js" %}
+
+/* 
+Obfuscate information by converting to and from hexadecimals
+*/
+
+document.addEventListener('DOMContentLoaded', function () {
+    const key = {{ site.hexkey }};
+    const xor = new Xor(key);
+    const linkXor = new LinkCoder(xor);
+
+    Nodes.decode('.xorencoded', linkXor);
+});
+{% include "../assets/js/link-xor.js" %}
+
+{% endset %}
+{{ js | minifyJs | safe }}

@@ -1,0 +1,20 @@
+<header id="header" class="bg-{{ theme.header_bg }} w-full px-6 py-5 z-50 fixed top-0 shadow-md transition-all transform ease-in-out duration-500 print:invisible">
+    <div class="max-w-5xl mx-auto flex items-center flex-wrap justify-between">
+        <div class="sm:mr-8">
+            <span class="text-xl text-teal-700 font-semibold self-center">{{ site.title | localize  }}</span>
+        </div>
+        <div class="flex space-x-5">
+            {% for lang in site.languages %}
+            <div class="shadow-md" alt="{{ lang }}">
+                {% if lang != language %}
+                    <a href="/{{ lang }}/" class="bg-{{ theme.header_bg }} opacity-100 z-10 transition-opacity duration-300 hover:opacity-50">
+                        {% include "icons/flag-icons-"+lang+".svg" %}
+                    </a>
+                {% else %}
+                    {% include "icons/flag-icons-"+lang+".svg" %}
+                {% endif %}    
+            </div>
+            {% endfor %}
+        </div>      
+    </div>
+</header>

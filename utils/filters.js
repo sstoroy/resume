@@ -3,6 +3,7 @@ const path = require('path')
 const mime = require('mime/lite')
 const { DateTime } = require('luxon')
 const isEmpty = require('lodash/isEmpty')
+const Xor = require("./../src/assets/js/link-xor.js")
 
 module.exports = {
     dateToFormat: function (date, format) {
@@ -19,11 +20,22 @@ module.exports = {
     },
 
     obfuscate: function (str) {
-        const chars = []
-        for (var i = str.length - 1; i >= 0; i--) {
-            chars.unshift(['&#', str[i].charCodeAt(), ';'].join(''))
+        const chars = [];
+        const keys = [str[0], str[Math.floor(str.length / 2)], str[str.length - 1]];
+        for (i=0;i<str.length;i++) {
+            let c = str[i];
+            if (c == '@' || keys.includes(c)) {
+                chars.push(`<nospam${str.length%i}>`);
+            }
+            chars.push(c);
         }
-        return chars.join('')
+        return chars.join('');
+    },
+
+    xor: function(input) {
+        const key = this.ctx.site.hexkey
+        const xor = new Xor(key);
+        return xor.encode(input);
     },
 
     stripSpaces: function (str) {
@@ -54,5 +66,19 @@ module.exports = {
             style += `--secondary-color:${colors.secondary};`
         }
         return style
+    },
+
+    localize: function(str) {
+        if (str == undefined || !Object.keys(str).length) {
+            return str;
+        }
+
+        const language = this.ctx.language;
+        const localizedString = str[language];
+
+        if (!localizedString) {
+            return str["en"];
+        } 
+        return localizedString;
     }
 }

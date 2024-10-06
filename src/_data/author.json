@@ -1,0 +1,23 @@
+{
+    "name": "Steffen Storøy",
+    "website": "https://sstoroy.github.io",
+    "location": {
+        "no": "Bergen",
+        "en": "Bergen, Norway"
+    },
+    "occupation": {
+        "no": "Utviklar med bakgrunn som IT-teknikar",
+        "en": "Developer with background as IT technician"
+    },
+    "about": {
+        "no": "Kjekk type. Sterk e han og.",
+        "en": "What a handsome face."
+    },
+    "avatar": "avatar.jpeg",
+    "email": "storoy.steffen@gmail.com",
+    "phone": "+47 99 61 05 83",
+    "interests": {
+        "no": ["Serverdrift", "Programmering", "Musikk (trommeslager)", "Friluftsliv"],
+        "en": ["Server drift", "Programming", "Music (drummer)", "Outdoors"]
+    }
+}

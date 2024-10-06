@@ -5,7 +5,7 @@ const glob = require('glob')
 const File = require('vinyl')
 const SVGSpriter = require('svg-sprite')
 
-const cwd = path.resolve('src/assets/icons')
+const cwd = path.resolve('src/_includes/icons')
 const spriteConfig = {
     mode: {
         inline: true,

@@ -1,8 +1,13 @@
 ---
-layout: resume
-permalink: /
+layout: default
+permalink: index.html
+lang: en
 ---
-
-{# This file generates the index.html page. #}
-{# Do not edit it directly. Instead, edit the files in src/entries. #}
-{# see README.md for more. #}
+<p>Redirecting to your language...</p>
+<script>
+    {% set js %}
+        {% include "./../src/assets/js/redirect_language.js" %}
+    {% endset %}
+    {{ js | minifyJs | safe }}
+</script>
+<p>If redirect takes longer than five seconds, please select your preferred language from the top bar.</p>

@@ -1,0 +1,7 @@
+{% for skill in skills %}
+    {{ skill }}
+{% endfor %}
+
+{% for language in languages | localize %}
+    {{ language.name }} ({{ language.fluency }})
+{% endfor %}

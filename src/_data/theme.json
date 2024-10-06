@@ -1,0 +1,10 @@
+{
+    "header_bg": "slate-100",
+    "header_txt": "black",
+    "body_bg": "slate-200",
+    "body_txt": "black",
+    "sidebar_bg": "slate-200",
+    "sidebar_txt": "black",
+    "footer_bg": "yellow-300",
+    "footer_txt": "black"
+}

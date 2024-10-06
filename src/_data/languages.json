@@ -1,0 +1,35 @@
+{
+    "no": [
+        {
+            "name": "Norsk",
+            "fluency": "morsmål"
+        },
+        {
+            "name": "Engelsk",
+            "fluency": "flytande"
+        },
+        {
+            "name": "Japansk",
+            "fluency": "nybyrjar"
+        }
+    ],
+    "en": [
+        {
+            "name": "Norwegian",
+            "fluency": "native"
+        },
+        {
+            "name": "Other Scandinavian names",
+            "fluency": "intermediate"
+        },
+        {
+            "name": "English",
+            "fluency": "fluent"
+        },
+        {
+            "name": "Japanese",
+            "fluency": "novice"
+        }
+    ]
+    
+}
