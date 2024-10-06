@@ -11,8 +11,7 @@ module.exports = (config) => {
   config.addLayoutAlias('default', 'layouts/default.njk');
   config.addLayoutAlias('resume', 'layouts/resume.njk');
 
-  config.addFilter('readableDate', require('./lib/filters/readableDate'));
-  config.addFilter('minifyJs', require('./lib/filters/minifyJs'));
+  config.addFilter('minifyJs', require('./utils/minifyJs'));
 
   // Filters
   Object.keys(filters).forEach((filterName) => {
