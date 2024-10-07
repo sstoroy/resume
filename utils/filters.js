@@ -7,9 +7,10 @@ const Xor = require("./../src/assets/js/link-xor.js")
 
 module.exports = {
     dateToFormat: function (date, format) {
-        return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(
-            String(format)
-        )
+        return DateTime
+            .fromISO(date)
+            .setLocale(this.ctx.language)
+            .toFormat(format)
     },
 
     dateToISO: function (date) {
@@ -17,6 +18,13 @@ module.exports = {
             includeOffset: false,
             suppressMilliseconds: true
         })
+    },
+
+    dateToHuman: function (date) {
+        return DateTime
+            .fromISO(date)
+            .setLocale(this.ctx.language)
+            .toLocaleString(DateTime.DATE_MED);
     },
 
     obfuscate: function (str) {
@@ -69,7 +77,7 @@ module.exports = {
     },
 
     localize: function(str) {
-        if (str == undefined || !Object.keys(str).length) {
+        if (str == undefined || !(str instanceof Object)) {
             return str;
         }
 

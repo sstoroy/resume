@@ -6,18 +6,30 @@
         "en": "Bergen, Norway"
     },
     "occupation": {
-        "no": "Utviklar med bakgrunn som IT-teknikar",
-        "en": "Developer with background as IT technician"
+        "no": "Utviklar og IT-teknikar",
+        "en": "Developer and IT technician"
     },
     "about": {
-        "no": "Kjekk type. Sterk e han og.",
-        "en": "What a handsome face."
+        "no": "NO: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "en": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "avatar": "avatar.jpeg",
     "email": "storoy.steffen@gmail.com",
     "phone": "+47 99 61 05 83",
+    "birthdate": "1985-05-02",
     "interests": {
         "no": ["Serverdrift", "Programmering", "Musikk (trommeslager)", "Friluftsliv"],
         "en": ["Server drift", "Programming", "Music (drummer)", "Outdoors"]
-    }
+    },
+    "skills": [
+        "Java",
+        "Python",
+        "HTML/CSS",
+        "Windows Server",
+        "asdf", 
+        "jklø", 
+        "asdf", 
+        "iuhasihad", 
+        "ahidas"
+    ]
 }

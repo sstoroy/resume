@@ -1,0 +1,47 @@
+[
+{
+    "title": {
+        "no": "Undervisningsassistent (Gruppeleiar)",
+        "en": "Course assistant (Group session leader)"
+    },
+    "organization": {
+        "no": "Universitetet i Bergen (UiB)",
+        "en": "University of Bergen"
+    },
+    "location": "Bergen",
+    "start": "2022-08-22",
+    "end": "2024-11-24",
+    "description": {
+        "no": "Gruppeleiar",
+        "en": "Group session leader"
+    }
+},
+{
+    "title": {
+        "no": "Drosjesjåfør",
+        "en": "Taxi driver"
+    },
+    "organization": "Bergen Taxi",
+    "location": "Bergen",
+    "start": "2020-08-22",
+    "end": "2020-11-24",
+    "description": {
+        "no": "Deltidsjobb",
+        "en": "Part time job"
+    }
+},
+{
+    "title": {
+        "no": "IT-tekniker",
+        "en": "IT technician"
+    },
+    "organization": "Havyard Group AS",
+    "location": "Hyllestad",
+    "start": "2006-08-22",
+    "end": "2017-02-01",
+    "description": {
+        "no": "Dagleg drift av servere + brukarsupport.",
+        "en": "Daily drift of servers and user support."
+    }
+}
+]

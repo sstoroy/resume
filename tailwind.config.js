@@ -11,6 +11,14 @@ module.exports = {
     xl: '1280px'
   },
   theme: {
+    colors: {
+      "vcard_bg": "#F9F5EA",
+      "header_bg": "#FFEFA2",
+      "body_bg": "#F3EEE1",
+      "sidebar_bg": "#F7D57E",
+      "footer_bg": "#FFEFA2",
+      "highlight": "#926B00"
+    },
     extend: {
       typography: (theme) => ({
         DEFAULT: {

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Tetris",
+        "year": "2022",
+        "url": "https://vg.no",
+        "keywords": ["java", "object oriented"],
+        "description": {
+            "no": "Eg laga vg.no. Helt sant.",
+            "en": "I'm the king of England."
+        }
+    },
+    {
+        "name": "resume",
+        "year": "2024",
+        "url": "https://sstoroy.github.com/resume",
+        "keywords": ["eleventy", "html/css", "javascript/node.js"],
+        "description": {
+            "no": "Denne sida du les akkurat no.",
+            "en": "This very page!"
+        }
+    }
+]

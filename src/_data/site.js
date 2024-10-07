@@ -1,7 +1,7 @@
 module.exports = {
   title: {
-    "no": "CV",
-    "en":'Résumé'
+    "no": "CV for Steffen Storøy",
+    "en":'Résumé for Steffen Storøy'
   },
   description: {
     "no": "CV for Steffen Storøy",

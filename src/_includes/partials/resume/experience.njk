@@ -1,0 +1,20 @@
+<div class="my-2 mt-2 content-evenly">
+    <h1 class="text-3xl pt-8 lg:pt-0 my-1 mt-5 ml-3 border-b border-highlight">{{ strings.experience | localize }}</h1>
+    <ul class="list-none">
+    {% for work in experience %}
+        <li class="border-l border-highlight">
+            <div class="tracking-wide w-3/4 ml-2 mb-5">
+                <span class="italic text-base uppercase">
+                    {{ work.start | dateToFormat("LLL yyyy") }} - {{ work.end | dateToFormat("LLL yyyy") }}
+                </span>
+
+                <h2 class="text-2xl text-highlight">
+                    {{ work.title | localize }}
+                </h2>
+                <span class="italic">{{ work.organization | localize }} · {{ work.location | localize }}</span>
+                <p>{{ work.description | localize }}</p>
+            </div>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

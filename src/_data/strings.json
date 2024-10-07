@@ -1,11 +1,42 @@
-{   "aria": {
-        "email": {
-            "no": "E-post",
-            "en": "E-mail"
-        },
-        "telephone": {
-            "no": "Telefon",
-            "en": "Telephone"
-        }
+{   
+    "about": {
+        "no": "Om",
+        "en": "About"
+    },
+    "experience": {
+        "no": "Jobberfaring",
+        "en": "Work experience"
+    },
+    "education": {
+        "no": "Utdanning",
+        "en": "Education"
+    },
+    "skills": {
+        "no": "Ferdigheiter",
+        "en": "Skills"
+    },
+    "languages": {
+        "no": "Språk",
+        "en": "Languages"
+    },
+    "portfolio": {
+        "no": "Portefølje",
+        "en": "Portfolio"
+    },
+    "interests": {
+        "no": "Interesser",
+        "en": "Interests"
+    },
+    "print": {
+        "no": "Skriv ut",
+        "en": "print"
+    },
+    "norwegian": {
+        "no": "Norsk",
+        "en": "Norwegian"
+    },
+    "english": {
+        "no": "Engelsk",
+        "en": "English"
     }
 }
