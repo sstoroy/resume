@@ -1,18 +1,57 @@
-[ 
-    {
-        "start": "20-08",
-        "end": "24-11",
-        "title": {
-            "no": "Bachelor i Informatikk",
-            "en": "Bachelor in Informatics"
-        },
-        "institute": {
-            "no": "Universitetet i Bergen (UiB)",
-            "en": "University of Bergen"
-        },
-        "description": {
-            "no": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "en": "Data technology at University of Bergen woo."
-        }
+[
+{
+    "start": "2020-08-01",
+    "end": "2024-11-01",
+    "title": {
+        "no": "Bachelor i Informatikk",
+        "en": "Bachelor in Informatics"
+    },
+    "institute": {
+        "no": "Universitetet i Bergen (UiB)",
+        "en": "University of Bergen"
+    },
+    "description": {
+        "no": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "en": "Data technology at University of Bergen woo."
     }
+},
+{
+    "start": "2001-08-01",
+    "end": "2003-06-01",
+    "title": {
+        "no": "Vidaregåande (GK, VK1)",
+        "en": "High School"
+    },
+    "institute": "Flora Vidaregåande Skule",
+    "description": {
+        "no": "Sal og Service (GK), IKT-Driftsfag (VK1)",
+        "en": "Took classes for Sales and Service, followed by a year of ICT classes."
+    }
+},
+{
+    "start": "2005-08-01",
+    "end": "2006-05-01",
+    "title": {
+        "no": "Lydstudio-linje",
+        "en": "Sound studio course"
+    },
+    "institute": "Manger Folkehøgskule",
+    "description": {
+        "no": "Eit flott år med flinke lærara, godt sosialt miljø og mykje musikk.",
+        "en": "A great year with good teachers, good social environment and a lot of music."
+    }
+},
+{
+    "start": "2006-08-01",
+    "end": "2008-05-01",
+    "title": {
+        "no": "IKT-lærling",
+        "en": "ICT apprentice"
+    },
+    "institute": "Havyard Leirvik AS",
+    "description": {
+        "no": "Fullførte fagbrevet. Lærte mykje om Windows Server og dagleg drift av forskjellige datasystem.",
+        "en": "Completed my trade certificate as an ICT consultant. During the time I learned a lot about Windows Server and the daily running of many different computer systems."
+    }
+}
 ]

@@ -22,6 +22,10 @@
         "en": ["Server drift", "Programming", "Music (drummer)", "Outdoors"]
     },
     "skills": [
+        {
+            "no": "Fagbrev IKT-driftsfag",
+            "en": "Trade certificate as a skilled ICT consultant"
+        },
         "Java",
         "Python",
         "HTML/CSS",

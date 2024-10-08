@@ -88,5 +88,13 @@ module.exports = {
             return str["en"];
         } 
         return localizedString;
+    },
+
+    sortByEndDate: function(list) {
+        return Array
+            .from(list)
+            .sort((a,b) => {
+                return DateTime.fromISO(b.end) - DateTime.fromISO(a.end);
+            });
     }
 }

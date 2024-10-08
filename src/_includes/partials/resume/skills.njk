@@ -6,7 +6,7 @@
     <ul class="list-none">
       {% for skill in author.skills %}
             <div class="text-lg tracking-wide w-3/4 mb-2">
-                <li class="pl-3 border-l border-highlight">{{ skill }}</li>
+                <li class="pl-3 border-l border-highlight">{{ skill | localize }}</li>
             </div>
         {% endfor %}
     </ul>

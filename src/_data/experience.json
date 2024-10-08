@@ -43,5 +43,19 @@
         "no": "Dagleg drift av servere + brukarsupport.",
         "en": "Daily drift of servers and user support."
     }
+},
+{
+    "title": {
+        "no": "Menig",
+        "en": "Private"
+    },
+    "organization": "Sambandsbataljonen, Hæren",
+    "location": "Bardufoss",
+    "start": "2004-08-01",
+    "end": "2005-05-01",
+    "description": {
+        "no": "Fyrstegongsteneste.",
+        "en": "Compulsory military service for the Norwegian army."
+    }
 }
 ]
