@@ -7,13 +7,17 @@
         "no": "Jobberfaring",
         "en": "Work experience"
     },
+    "current": {
+        "no": "Noverande",
+        "en": "Current"
+    },
     "education": {
         "no": "Utdanning",
         "en": "Education"
     },
     "skills": {
-        "no": "Kompetanse og erfaringsområde",
-        "en": "Certificates, skills and fields of experience"
+        "no": "Kompetanse",
+        "en": "Skills"
     },
     "languages": {
         "no": "Språk",
@@ -38,5 +42,9 @@
     "english": {
         "no": "Engelsk",
         "en": "English"
+    },
+    "activities": {
+        "no": "Verv",
+        "en": "Extracurricular activity"
     }
 }

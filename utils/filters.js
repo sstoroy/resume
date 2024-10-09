@@ -7,17 +7,22 @@ const Xor = require("./../src/assets/js/link-xor.js")
 
 module.exports = {
     dateToFormat: function (date, format) {
-        return DateTime
-            .fromISO(date)
+        let dt = DateTime.fromISO(date)
+        if (!date || dt > DateTime.now()) {
+            return this.ctx.strings.current[this.ctx.language];
+        }
+        return dt
             .setLocale(this.ctx.language)
-            .toFormat(format)
+            .toFormat(format);
     },
 
     dateToISO: function (date) {
-        return DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
-            includeOffset: false,
-            suppressMilliseconds: true
-        })
+        return DateTime
+            .fromJSDate(date, { zone: 'utc' })
+            .toISO({
+                includeOffset: false,
+                suppressMilliseconds: true
+            })
     },
 
     dateToHuman: function (date) {
@@ -91,10 +96,13 @@ module.exports = {
     },
 
     sortByEndDate: function(list) {
-        return Array
-            .from(list)
+        const getDate = (date) => date 
+            ? DateTime.fromISO(date) 
+            : DateTime.now().plus({years: 100})
+            
+        return Array.from(list)
             .sort((a,b) => {
-                return DateTime.fromISO(b.end) - DateTime.fromISO(a.end);
+                return getDate(b.end) - getDate(a.end);
             });
     }
 }

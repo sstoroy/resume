@@ -5,7 +5,7 @@
     </h1>
     <ul class="list-none">
       {% for skill in author.skills %}
-            <div class="text-lg tracking-wide w-3/4 mb-2">
+            <div class="tracking-wide w-3/4 mb-2">
                 <li class="pl-3 border-l border-highlight">{{ skill | localize }}</li>
             </div>
         {% endfor %}
@@ -18,7 +18,7 @@
     </h1>
     <ul class="mb-4 list-none">
       {% for language in languages | localize %}
-            <div class="text-lg tracking-wide w-3/4 mb-2">
+            <div class="tracking-wide w-3/4 mb-2">
                 <li class="pl-3 border-l border-highlight">{{ language.name }} ({{ language.fluency }})</li>
             </div>
         {% endfor %}
@@ -28,7 +28,7 @@
     </h1>
     <ul>
       {% for interest in author.interests | localize %}
-            <div class="text-lg tracking-wide w-3/4 mb-2">
+            <div class="tracking-wide w-3/4 mb-2">
                 <li class="pl-3 border-l border-highlight">{{ interest }}</li>
             </div>
         {% endfor %}

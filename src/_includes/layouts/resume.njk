@@ -2,19 +2,19 @@
 layout: default
 ---
 
-{% include "partials/sidebar.njk" %}
-<div class="p-4 ml-0 md:ml-96">
+{% include "partials/_sidebar.njk" %}
+<div class="p-4 ml-0 md:ml-96 text-base md:text-lg">
     <div>
-        {% include "partials/vcard.njk" %}
+        {% include "partials/_vcard.njk" %}
         <div class="my-2 mt-2">
             <h1 class="text-3xl pt-8 lg:pt-0 my-1 mt-5 ml-3 border-b border-highlight">{{ strings.about | localize }}</h1>
-            <p class="text-xl tracking-wide w-3/4">
+            <p class="md:text-xl tracking-wide w-3/4">
                 {{ author.about | localize }}
             </p>
         </div>
-        {% include "partials/resume/experience.njk" %}  
-        {% include "partials/resume/education.njk" %}  
-        {% include "partials/resume/skills.njk" %}  
-        {% include "partials/resume/projects.njk" %}
+        {% include "partials/resume/_experience.njk" %}  
+        {% include "partials/resume/_education.njk" %}  
+        {% include "partials/resume/_skills.njk" %}  
+        {% include "partials/resume/_projects.njk" %}
     </div>
 </div>

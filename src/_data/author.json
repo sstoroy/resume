@@ -23,6 +23,10 @@
     },
     "skills": [
         {
+            "no": "Bachelor i Informatikk: Datateknologi",
+            "en": "Bachelor's degree in Computer Technology"
+        },
+        {
             "no": "Fagbrev IKT-driftsfag",
             "en": "Trade certificate as a skilled ICT consultant"
         },
@@ -30,7 +34,7 @@
         "Python",
         "HTML/CSS",
         "Windows Server",
-        "asdf", 
+        "Haskell", 
         "jklø", 
         "asdf", 
         "iuhasihad", 

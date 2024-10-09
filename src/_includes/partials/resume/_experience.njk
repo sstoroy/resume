@@ -1,7 +1,7 @@
 <div class="my-2 mt-2 content-evenly">
     <h1 class="text-3xl pt-8 lg:pt-0 my-1 mt-5 ml-3 border-b border-highlight">{{ strings.experience | localize }}</h1>
     <ul class="list-none">
-    {% for work in (experience | sortByEndDate) %}
+    {% for work in (experience.work | sortByEndDate) %}
         <li class="border-l border-highlight">
             <div class="tracking-wide w-3/4 ml-2 mb-5">
                 <span class="italic text-base uppercase">

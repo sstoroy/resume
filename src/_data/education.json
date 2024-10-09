@@ -3,8 +3,8 @@
     "start": "2020-08-01",
     "end": "2024-11-01",
     "title": {
-        "no": "Bachelor i Informatikk",
-        "en": "Bachelor in Informatics"
+        "no": "Bachelor i Informatikk: Dateknologi",
+        "en": "Bachelor's degree in Computer Technology"
     },
     "institute": {
         "no": "Universitetet i Bergen (UiB)",
@@ -52,6 +52,19 @@
     "description": {
         "no": "Fullførte fagbrevet. Lærte mykje om Windows Server og dagleg drift av forskjellige datasystem.",
         "en": "Completed my trade certificate as an ICT consultant. During the time I learned a lot about Windows Server and the daily running of many different computer systems."
+    }
+},
+{
+    "start": "2019-08-01",
+    "end": "2021-06-01",
+    "title": {
+        "no": "Studiekompetanse",
+        "en": "Higher Education Entrance Qualification"
+    },
+    "institute": "Danielsen Intensivgymnas",
+    "description": {
+        "no": "Generell studiekompetanse (Norsk, Matte, Historie, Naturfag) og Spesiell studiekompetanse (Matte R1+R2, Teknologi og Forskning 1+2).",
+        "en": "General (Norwegian, Maths, History, Science) and Special (Maths R1+R2, Technology and Research 1+2)."
     }
 }
 ]

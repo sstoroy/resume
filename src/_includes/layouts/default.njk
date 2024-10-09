@@ -44,12 +44,12 @@
 
 
 <body class="flex flex-col h-screen bg-body_bg text-slate-800 break-words print:bg-white"> 
-    {% include "partials/header.njk" %}
+    {% include "partials/_header.njk" %}
     <main class="mx-7 lg:mx-6 mt-32 flex-grow">
         {{ content | safe }}
     </main>
     
-    {% include "partials/footer.njk" %}
+    {% include "partials/_footer.njk" %}
 </body>
 
 </html>

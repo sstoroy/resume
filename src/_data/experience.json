@@ -1,61 +1,67 @@
-[
 {
-    "title": {
-        "no": "Undervisningsassistent (Gruppeleiar)",
-        "en": "Course assistant (Group session leader)"
+"work": [
+    {
+        "title": {
+            "no": "Undervisningsassistent (Gruppeleiar)",
+            "en": "Course assistant (Group session leader)"
+        },
+        "organization": {
+            "no": "Universitetet i Bergen (UiB)",
+            "en": "University of Bergen"
+        },
+        "location": "Bergen",
+        "start": "2022-08-22",
+        "end": "2024-11-24",
+        "description": {
+            "no": "Gruppeleiar for kursa Innføring i programmering (INF100), Objekt-orientert programmering (INF101) og Algoritmar, datastrukturar og programmering (INF102).",
+            "en": "Group session leader for the courses Introduction to programming (INF100), Object-oriented programming (INF101) and Algorithms, Data Structures and Programming (INF102)."
+        }
     },
-    "organization": {
-        "no": "Universitetet i Bergen (UiB)",
-        "en": "University of Bergen"
+    {
+        "title": {
+            "no": "Menig",
+            "en": "Private"
+        },
+        "organization": "Sambandsbataljonen, Hæren",
+        "location": "Bardufoss",
+        "start": "2004-08-01",
+        "end": "2005-05-01",
+        "description": {
+            "no": "Fyrstegongsteneste.",
+            "en": "Compulsory military service for the Norwegian army."
+        }
     },
-    "location": "Bergen",
-    "start": "2022-08-22",
-    "end": "2024-11-24",
-    "description": {
-        "no": "Gruppeleiar",
-        "en": "Group session leader"
+    {
+        "title": {
+            "no": "IT-tekniker",
+            "en": "IT technician"
+        },
+        "organization": "Havyard Group AS",
+        "location": "Hyllestad",
+        "start": "2006-08-22",
+        "end": "2018-02-01",
+        "description": {
+            "no": "Dagleg drift av servere + brukarsupport.",
+            "en": "Daily drift of servers and user support."
+        }
     }
-},
-{
-    "title": {
-        "no": "Drosjesjåfør",
-        "en": "Taxi driver"
+],
+"activities": [
+    {   "title":
+        {
+            "no": "Bustadsrepresentant i Hyllestad Bustadstifting",
+            "en": "Representative for residents in Hyllestad Bustadstifting"
+        },
+        "start": "2013-01-01",
+        "end": "2018-01-01"
     },
-    "organization": "Bergen Taxi",
-    "location": "Bergen",
-    "start": "2020-08-22",
-    "end": "2020-11-24",
-    "description": {
-        "no": "Deltidsjobb",
-        "en": "Part time job"
+    {
+        "title": {
+            "no": "Revisor for FLT, avdeling Hyllestad",
+            "en": "Auditor for FLT, section Hyllestad"
+        },
+        "start": "2008-01-01",
+        "end": "2018-01-01"
     }
-},
-{
-    "title": {
-        "no": "IT-tekniker",
-        "en": "IT technician"
-    },
-    "organization": "Havyard Group AS",
-    "location": "Hyllestad",
-    "start": "2006-08-22",
-    "end": "2017-02-01",
-    "description": {
-        "no": "Dagleg drift av servere + brukarsupport.",
-        "en": "Daily drift of servers and user support."
-    }
-},
-{
-    "title": {
-        "no": "Menig",
-        "en": "Private"
-    },
-    "organization": "Sambandsbataljonen, Hæren",
-    "location": "Bardufoss",
-    "start": "2004-08-01",
-    "end": "2005-05-01",
-    "description": {
-        "no": "Fyrstegongsteneste.",
-        "en": "Compulsory military service for the Norwegian army."
-    }
+    ]
 }
-]
