@@ -109,3 +109,5 @@ dist
 # package-lock.json # needed for github pages
 yarn.lock
 pnpm-lock.yaml
+
+.ssh
