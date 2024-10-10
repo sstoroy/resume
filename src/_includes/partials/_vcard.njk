@@ -27,7 +27,7 @@
                 </div>
                 {% for s in social %}
                     <div class="mt-2 text-gray-500 w-1/2">
-                        <a class="inline-flex hover:underline group" href="{{ s.url }}" target="_blank">{% include ("icons/" + s.name + ".svg") %} {{ s.user }}
+                        <a class="inline-flex hover:underline group" href="{{ s.url }}" target="_blank">{% include ("icons/" + (s.name | lower) + ".svg") %} {{ s.user }}
                         <span class="invisible group-hover:visible">
                             {%include "icons/new-window.svg" %}
                         </span>
