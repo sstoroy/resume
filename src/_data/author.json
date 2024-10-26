@@ -10,11 +10,11 @@
         "en": "Developer and IT technician"
     },
     "about": {
-        "no": "NO: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "en": "EN: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "no": "Eg er ein tidlegare IT-tekniker med over ti års erfaring, som har tatt steget inn i utviklingsverda. Målet mitt er å levere robuste og trygge løysingar som eg kan vere stolt av. Eg er for tida på jakt etter nye utfordringar, der eg kan dra nytte av mi breie kompetanse til å skape verdi.",
+        "en": "I am a former IT technician with over ten years of experience, who has taken the step into the world of software development. My goal is to provide robust, safe and secure solutions that I can be proud of. I am currently looking for new challenges, where I can use my wide array of skills to provide value."
     },
     "avatar": "avatar.jpeg",
-    "email": "storoy.steffen@gmail.com",
+    "email": "storoy@steffen.gmail@com",
     "phone": "+47 99 61 05 83",
     "birthdate": "1985-05-02",
     "interests": {
@@ -30,14 +30,27 @@
             "no": "Fagbrev IKT-driftsfag",
             "en": "Trade certificate as a skilled ICT consultant"
         },
-        "Java",
-        "Python",
+        {
+            "no": "Diverse programmeringsspråk som t.d. Java, Python, Kotlin, C, SQL, Haskell, osb.",
+            "en": "Various programming languages, including (but not limited to) Java, Python, Kotlin, C, SQL, Haskell, etc."
+        },
+        {
+            "no": "Diverse programmeringsmønstre, som t.d. Model-View-Controller, Factory, osb.",
+            "en": "Various programming patterns, including Model-View-Controller, Factory, etc."
+        },
+        "Git",
         "HTML/CSS",
         "Windows Server",
-        "Haskell", 
-        "jklø", 
-        "asdf", 
-        "iuhasihad", 
-        "ahidas"
+        "VmWare ESX/ESXi",
+        "Linux", 
+        {
+            "no": "Nettverksadministrasjon",
+            "en": "Administrating network systems"
+        },
+        {
+            "no": "Brukarstøtte",
+            "en": "User support"
+        },
+        "PowerShell / sh / bash"
     ]
 }

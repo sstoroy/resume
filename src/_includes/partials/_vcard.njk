@@ -13,7 +13,7 @@
             </div>
             <div class="flex flex-wrap">
                 <div class="mt-2 text-gray-500 w-1/2">
-                    <a class="xorencoded inline-flex hover:underline" aria-label="E-mail" href="{{ ("mailto:" + author.email) | xor }}" rel="nofollow, noindex">{% include "icons/email.svg" %} {{ author.email | obfuscate | safe }}</a>
+                    <a class="xorencoded inline-flex hover:underline" aria-label="E-mail" href="{{ ("mailto:" + ( author.email | unscrambleEmail) ) | xor }}" rel="nofollow, noindex">{% include "icons/email.svg" %} {{ (author.email | unscrambleEmail) | obfuscate | safe }}</a>
                 </div>
                 <div class="mt-2 text-gray-500 w-1/2">
                     <a class="inline-flex hover:underline" aria-label="Telephone" href="tel:{{ author.phone | stripSpaces }}">{% include "icons/telephone.svg" %} {{ author.phone }}</a>

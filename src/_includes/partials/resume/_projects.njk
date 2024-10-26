@@ -10,12 +10,16 @@
                     <span class="italic text-base uppercase">{{ project.year }}</span>
 
                     <h2 class="text-2xl text-highlight">
+                        {% if project.url %}
                         <a class="hover:underline inline-flex group" href="{{ project.url }}" target="_blank">
-                            {{ project.name }}
+                            {{ project.name | localize }}
                             <span class="invisible group-hover:visible">
                                 {%include "icons/new-window.svg" %}
                             </span>
                         </a>
+                        {% else %}
+                        {{ project.name | localize }}
+                        {% endif %}
                     </h2>
                     <span class="italic uppercase text-xs">
                     {% for keyword in project.keywords %}{{ keyword }}{%- if not loop.last %} · {% endif -%}{% endfor %}

@@ -19,20 +19,6 @@
     },
     {
         "title": {
-            "no": "Menig",
-            "en": "Private"
-        },
-        "organization": "Sambandsbataljonen, Hæren",
-        "location": "Bardufoss",
-        "start": "2004-08-01",
-        "end": "2005-05-01",
-        "description": {
-            "no": "Fyrstegongsteneste.",
-            "en": "Compulsory military service for the Norwegian army."
-        }
-    },
-    {
-        "title": {
             "no": "IT-tekniker",
             "en": "IT technician"
         },
@@ -41,8 +27,8 @@
         "start": "2006-08-22",
         "end": "2018-02-01",
         "description": {
-            "no": "Dagleg drift av servere + brukarsupport.",
-            "en": "Daily drift of servers and user support."
+            "no": "Under mi tid hos Havyard bidrog eg med bl.a. drift og oppgradering av alle datasystem, support for ein aukande brukarmasse og feilsøking av prosessar i alle ledd.",
+            "en": "In my time at Havyard, I contribute with among others drifting and upgrading of all computer systems, support for a growing user base, and troubleshooting of processes at all levels."
         }
     }
 ],
@@ -62,6 +48,14 @@
         },
         "start": "2008-01-01",
         "end": "2018-01-01"
+    },
+    {
+        "title": {
+            "no": "Menig i Sambandsbataljonen, Hæren (fyrstegongstenesta)",
+            "en": "Private in the compulsory military service for the Norwegian army"
+        },
+        "start": "2004-08-01",
+        "end": "2005-05-01"
     }
     ]
 }

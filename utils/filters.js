@@ -32,6 +32,13 @@ module.exports = {
             .toLocaleString(DateTime.DATE_MED);
     },
 
+    unscrambleEmail: function (str) {
+        return str
+        .replaceAll('@','^')
+        .replaceAll('.', '@')
+        .replaceAll('^', '.');
+    },
+
     obfuscate: function (str) {
         const chars = [];
         const keys = [str[0], str[Math.floor(str.length / 2)], str[str.length - 1]];

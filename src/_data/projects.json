@@ -1,22 +1,50 @@
 [
     {
-        "name": "Tetris",
+        "name": "Tetris (UiB)",
         "year": "2022",
-        "url": "https://vg.no",
         "keywords": ["java", "object oriented"],
         "description": {
-            "no": "Eg laga vg.no. Helt sant.",
-            "en": "I'm the king of England."
+            "no": "Mitt fyrste 'ordentlege' prosjekt, som ein del av kurset om objektorientert programmering. Oppgåva gjekk ut på å lage Tetris ved å fylgje OOP-prinsipp. Når minstekrava til spelet var på plass, utvida eg spelet med vanskeligheitsgrad, highscore, førehandsvising av neste brikke og andre morosame småting. Grunna akademiske retningslinjer og bruken av oppgåva i framtidige kurs, er ikkje koden offentleg tilgjengelig.",
+            "en": "My first 'real' project, as part of the course in object oriented programming. The task was to create Tetris by following OOP principles. When I finished the basic game, I added more features like difficulty setting, highscores, a preview window and other fun elements. Due to academic guidelines and the project's use in future coursework, the code is not publicly available."
+        }
+    },
+    {
+        "name": "Headbook (UiB)",
+        "year": "2023",
+        "keywords": ["python", "flask", "security"],
+        "description": {
+            "no": "Ei oppgåve der vi fekk utlevert ein utfordrar til verdas største sosiale nettverk. Problemet var at sida var ikkje rusta til å stå i mot utfordringane på internett, så eg implementerte ei rekke tryggleiksforbetringar, som t.d. passordhashing og -validering, motstand mot SQL og JS injections,CSP, Oauth, osb. Grunna akademiske retningslinjer og bruken av oppgåva i framtidige kurs, er ikkje koden offentleg tilgjengelig.",
+            "en": "A task where we were given the code for a challenger to the worlds largest social network. The issue was that the site was not ready to tackle the challenges of the internet, so I implemented an array of security improvements, like password hashing and validation, resistance against SQL and JS injections, CSP, Oauth, etc. Due to academic guidelines and the project's use in future coursework, the code is not publicly available."
+        }
+    },
+    {
+        "name": "The Pursuit of Koala Tea (UiB)",
+        "year": "2023",
+        "keywords": ["java", "git", "teamwork"],
+        "description": {
+            "no": "Eit samarbeidsprosjekt der eg og tre andre med variert bakgrunn vart sett i hope for å lage eit valfritt spel. Dei forskjellige ideane vi hadde danna grunnlaget for eit spel der ein styrer ein koala som må navigere seg rundt Australia si farlege villmark, på jakt etter eukalyptusblader for å kunne lage te. Det viktigaste eg lærte i dette prosjektet var korleis ein kan nytte git effektivt til å samarbeide om kode. Grunna akademiske retningslinjer og bruken av oppgåva i framtidige kurs, er ikkje koden offentleg tilgjengelig.",
+            "en": "A team project, where me and three others from various backgrounds, was set the task of creating a game. The different ideas we had culminated in a game where you control a coala that has to navigate the dangerous wilderness of Australia, in the hunt for eucalyptus leaves for brewing tea. The most important skill I gained in this project was how to effectively use git for code cooperation. Due to academic guidelines and the project's use in future coursework, the code is not publicly available."
         }
     },
     {
         "name": "resume",
         "year": "2024",
-        "url": "https://sstoroy.github.com/resume",
+        "url": "https://github.com/sstoroy/resume",
         "keywords": ["eleventy", "html/css", "javascript/node.js"],
         "description": {
-            "no": "Denne sida du les akkurat no.",
-            "en": "This very page!"
+            "no": "Denne sida du les akkurat no. Eg føretrekk ukompliserte løysingar, så når valet sto mellom ei dynamisk eller statisk nettside for ein CV, så måtte valet bli statisk. Eleventy viste seg å vere morosamt å ha med å gjere, spesielt med tanke på kor fleksibelt og modulært det er.",
+            "en": "This very page! I prefer uncomplicated solutions, so when dealing with the option of a dynamic or static site, the choice had to be static. Eleventy turned out to be a fun experience, especially considering how flexible and modular it is."
+        }
+    },
+    {
+        "name": {
+            "no": "Andre",
+            "en": "Others"
+        },
+        "keywords": ["java", "python"],
+        "description": {
+            "no": "Eg har fleire prosjekt av varierande storleik på gang, og når eg kjenner at dei er klare nok kjem eg til å liste dei her.",
+            "en": "I have more projects of various scope levels, and when I feel that they are ready I will list them here."
         }
     }
 ]
