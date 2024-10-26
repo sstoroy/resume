@@ -7,7 +7,7 @@
             {% for lang in site.languages %}
             <div class="shadow-md" alt="{{ lang }}">
                 {% if lang != language %}
-                    <a href="/{{ lang }}/" class="bg-header_bg opacity-100 z-10 transition-opacity duration-300 hover:opacity-50">
+                    <a href="{{ lang | absoluteURI }}/" class="bg-header_bg opacity-100 z-10 transition-opacity duration-300 hover:opacity-50">
                         {% include "icons/flag-icons-"+lang+".svg" %}
                     </a>
                 {% else %}

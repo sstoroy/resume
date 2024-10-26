@@ -31,5 +31,5 @@ const navigatorLanguage = () => {
 }
 
 setTimeout(function () {
-  window.location.replace("/" + navigatorLanguage() + "/");
+  window.location.replace(navigatorLanguage() + "/");
 }, 2000); 

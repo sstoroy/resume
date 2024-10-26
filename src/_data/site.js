@@ -8,7 +8,7 @@ module.exports = {
     "en": 'Résumé for Steffen Storøy'
   },
   keywords: ["résumé", "resume", "cv", "curriculum vitae"],
-  url: 'https://sstoroy.github.io',
+  url: 'https://sstoroy.github.io/resume/',
   languages: ["no", "en"],
   hexkey: 99
 };

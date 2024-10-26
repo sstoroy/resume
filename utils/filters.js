@@ -4,6 +4,7 @@ const mime = require('mime/lite')
 const { DateTime } = require('luxon')
 const isEmpty = require('lodash/isEmpty')
 const Xor = require("./../src/assets/js/link-xor.js")
+const site = require('../src/_data/site.js')
 
 module.exports = {
     dateToFormat: function (date, format) {
@@ -111,5 +112,13 @@ module.exports = {
             .sort((a,b) => {
                 return getDate(b.end) - getDate(a.end);
             });
+    },
+
+    absoluteURI: function(link) {
+        const parent = 
+            process.env.NODE_ENV === 'production' 
+                ? site.url
+                : "/";
+        return parent + link;
     }
 }
