@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js current
+      - name: Use Node.js 22.9.0
         uses: actions/setup-node@v3
         with:
-          node-version: current
+          node-version: 22.9.0
           cache: 'npm'
 
       - name: Install packages
