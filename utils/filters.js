@@ -118,7 +118,7 @@ module.exports = {
         const parent = 
             process.env.NODE_ENV === 'production' 
                 ? site.url
-                : "/";
+                : "http://localhost:8080/";
         return parent + link;
     }
 }

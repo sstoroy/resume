@@ -6,7 +6,7 @@
     "start": "npm run serve",
     "watch": "npm run clean && concurrently --kill-others -c auto npm:css:watch npm:11ty:watch",
     "serve": "npm run clean && concurrently --kill-others -c auto npm:css:watch npm:11ty:serve",
-    "build": "npm run clean css:build && npm run 11ty:build",
+    "build": "npm run clean && npm run css:build && npm run 11ty:build",
     "debug": "cross-env DEBUG=Eleventy* npm run build",
     "11ty:watch": "cross-env NODE_ENV=development eleventy --watch --incremental",
     "11ty:serve": "cross-env NODE_ENV=development eleventy --serve --incremental",
