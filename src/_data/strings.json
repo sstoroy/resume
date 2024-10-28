@@ -27,6 +27,10 @@
         "no": "Portefølje",
         "en": "Portfolio"
     },
+    "portfolio_other": {
+        "no": "Sideprosjekt under arbeid",
+        "en": "Works in progress"
+    },
     "interests": {
         "no": "Interesser",
         "en": "Interests"

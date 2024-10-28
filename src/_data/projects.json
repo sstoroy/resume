@@ -1,3 +1,4 @@
+{ "main":
 [
     {
         "name": "Tetris (UiB)",
@@ -35,16 +36,51 @@
             "no": "Denne sida du les akkurat no. Eg føretrekk ukompliserte løysingar, så når valet sto mellom ei dynamisk eller statisk nettside for ein CV, så måtte valet bli statisk. Eleventy viste seg å vere morosamt å ha med å gjere, spesielt med tanke på kor fleksibelt og modulært det er.",
             "en": "This very page! I prefer uncomplicated solutions, so when dealing with the option of a dynamic or static site, the choice had to be static. Eleventy turned out to be a fun experience, especially considering how flexible and modular it is."
         }
+    }
+],
+
+"other":
+[
+    {
+        "name": {
+            "no": "Online Turing-maskin",
+            "en": "Online Turing machine"
+        },
+        "keywords": ["java", "typescript"],
+        "description": {
+            "no": "Fleksibel Turing-maskin med tilhøyrande rammeverk for bruk på internett.",
+            "en": "Flexible Turing machine with a framework for use on the internet."
+        }
     },
     {
         "name": {
-            "no": "Andre",
-            "en": "Others"
+            "no": "Lasteplanlegger",
+            "en": "Cargo hold planner"
         },
-        "keywords": ["java", "python"],
+        "keywords": ["java"],
         "description": {
-            "no": "Eg har fleire prosjekt av varierande storleik på gang, og når eg kjenner at dei er klare nok kjem eg til å liste dei her.",
-            "en": "I have more projects of various scope levels, and when I feel that they are ready I will list them here."
+            "no": "Gitt ei rute med lossing og lasting av varer på kvart stopp, korleis organisere lasta i lasterommet mest effektivt? Det er det eg håper å finne ut av.",
+            "en": "Given a route with loading and unloading of cargo at each stop, how to organize the cargo in the hold in the most effective manner? That's what I hope to find out in this project."
+        }
+    },
+    {
+        "name": {
+            "no": "Enkel veirapplikasjon",
+            "en": "Simple weather app"
+        },
+        "keywords": ["kotlin", "android"],
+        "description": {
+            "no": "Ein app som, når ein trykker på ein stad på eit kart, viser veiret på den staden.",
+            "en": "An app where, when you select a place on a map, shows the weather at that spot."
+        }
+    },
+    {
+        "name": "Rommy",
+        "keywords": ["java"],
+        "description": {
+            "no": "Implementering av 'Rommy', ei lokal variant av kortspelet Rummy.",
+            "en": "An implementation of 'Rommy', a local variant of the card game Rummy."
         }
     }
 ]
+}
