@@ -36,6 +36,16 @@
             "no": "Denne sida du les akkurat no. Eg føretrekk ukompliserte løysingar, så når valet sto mellom ei dynamisk eller statisk nettside for ein CV, så måtte valet bli statisk. Eleventy viste seg å vere morosamt å ha med å gjere, spesielt med tanke på kor fleksibelt og modulært det er.",
             "en": "This very page! I prefer uncomplicated solutions, so when dealing with the option of a dynamic or static site, the choice had to be static. Eleventy turned out to be a fun experience, especially considering how flexible and modular it is."
         }
+    },
+    {
+        "name": "Password Generator",
+        "year": "2025",
+        "url": "https://github.com/sstoroy/password-generator",
+        "keywords": ["spring boot", "java", "thymeleaf"],
+        "description": {
+            "no": "Nettapplikasjon for å generere tilfeldige passord. \"Kvifor i Spring Boot, det vert ikkje nytta database?\" Mest for erfaringa si del, og for å friske opp litt Java.",
+            "en": "Web application to generate random passwords. \"Why with Spring boot when databases aren't used?\" Mostly for the experience, and to freshen up on some Java."
+        }
     }
 ],
 
