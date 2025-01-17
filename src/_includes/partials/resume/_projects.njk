@@ -7,24 +7,31 @@
         {% for project in projects.main %}
             <li class="border-l border-highlight">
                 <div class="tracking-wide w-3/4 ml-2 mb-5">
-                    <span class="italic text-base uppercase">{{ project.year }}</span>
-
                     <h2 class="text-2xl text-highlight">
-                        {% if project.url %}
-                        <a class="hover:underline inline-flex group" href="{{ project.url }}" target="_blank">
-                            {{ project.name | localize }}
-                            <span class="invisible group-hover:visible">
-                                {%include "icons/new-window.svg" %}
-                            </span>
-                        </a>
-                        {% else %}
-                        {{ project.name | localize }}
-                        {% endif %}
+                    {{ project.name | localize }}
                     </h2>
                     <span class="italic uppercase text-xs">
-                    {% for keyword in project.keywords %}{{ keyword }}{%- if not loop.last %} · {% endif -%}{% endfor %}
+                        {{ project.year }} &#123; {% for keyword in project.keywords %}{{ keyword }}{%- if not loop.last %} · {% endif -%}{% endfor %} &#125;
                     </span>
                     <p>{{ project.description | localize }}</p>
+                    <span class="italic uppercase text-xs">
+                    {% if project.url %}
+                    <a class="hover:underline inline-flex items-center group" href="{{ project.url }}" target="_blank">
+                        {%include "icons/github.svg" %} Source code available
+                        <span class="invisible inline-flex group-hover:visible">
+                            {%include "icons/new-window.svg" %}
+                        </span>
+                    </a>
+                    {% endif %}
+                    {% if project.docker %}
+                    <a class="hover:underline inline-flex items-center group" href="{{ project.docker }}" target="_blank">
+                        {%include "icons/docker.svg" %} Docker image available
+                        <span class="invisible inline-flex group-hover:visible">
+                            {%include "icons/new-window.svg" %}
+                        </span>
+                    </a> 
+                    {% endif %}
+                    </span>
                 </div>
             </li>
         {% endfor %}
@@ -34,26 +41,14 @@
         <h1 class="text-3xl pt-8 lg:pt-0 my-1 mt-5 ml-3 border-b border-highlight">
             {{ strings.portfolio_other | localize }}
         </h1>
-        
         <ul class="list-none">
         {% for project in projects.other %}
             <li class="border-l border-highlight">
                 <div class="tracking-wide w-3/4 ml-2 mb-5">
-                    <h2 class="text-2xl text-highlight">
-                        {% if project.url %}
-                        <a class="hover:underline inline-flex group" href="{{ project.url }}" target="_blank">
-                            {{ project.name | localize }}
-                            <span class="invisible group-hover:visible">
-                                {%include "icons/new-window.svg" %}
-                            </span>
-                        </a>
-                        {% else %}
-                        {{ project.name | localize }}
-                        {% endif %}
-                    </h2>
-                    <span class="italic uppercase text-xs">
-                    {% for keyword in project.keywords %}{{ keyword }}{%- if not loop.last %} · {% endif -%}{% endfor %}
-                    </span>
+                    <h2 class="text-2xl text-highlight">{{ project.name | localize }}</h2>
+                        <span class="italic uppercase text-xs">
+                        &#123; {% for keyword in project.keywords %}{{ keyword }}{%- if not loop.last %} · {% endif -%}{% endfor %} &#125;
+                        </span>
                     <p>{{ project.description | localize }}</p>
                 </div>
             </li>

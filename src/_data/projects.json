@@ -41,6 +41,7 @@
         "name": "Password Generator",
         "year": "2025",
         "url": "https://github.com/sstoroy/password-generator",
+        "docker": "https://sstoroy.github.io/docker-images/#password_generator",
         "keywords": ["spring boot", "java", "thymeleaf"],
         "description": {
             "no": "Nettapplikasjon for å generere tilfeldige passord. \"Kvifor i Spring Boot, det vert ikkje nytta database?\" Mest for erfaringa si del, og for å friske opp litt Java.",
