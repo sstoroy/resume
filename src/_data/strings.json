@@ -50,5 +50,13 @@
     "activities": {
         "no": "Verv",
         "en": "Extracurricular activity"
+    },
+    "source_available": {
+        "no": "Kjeldekode tilgjengeleg",
+        "en": "Source code available"
+    },
+    "docker_available": {
+        "no": "Docker-arkiv tilgjengeleg",
+        "en": "Docker image available"
     }
 }

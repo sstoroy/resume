@@ -17,7 +17,7 @@
                     <span class="italic uppercase text-xs">
                     {% if project.url %}
                     <a class="hover:underline inline-flex items-center group" href="{{ project.url }}" target="_blank">
-                        {%include "icons/github.svg" %} Source code available
+                        {%include "icons/github.svg" %} {{ strings.source_available | localize }}
                         <span class="invisible inline-flex group-hover:visible">
                             {%include "icons/new-window.svg" %}
                         </span>
@@ -25,7 +25,7 @@
                     {% endif %}
                     {% if project.docker %}
                     <a class="hover:underline inline-flex items-center group" href="{{ project.docker }}" target="_blank">
-                        {%include "icons/docker.svg" %} Docker image available
+                        {%include "icons/docker.svg" %} {{ strings.docker_available | localize }}
                         <span class="invisible inline-flex group-hover:visible">
                             {%include "icons/new-window.svg" %}
                         </span>
